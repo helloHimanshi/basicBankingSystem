@@ -1,0 +1,553 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+h1 {
+  color: #4C4B4B;
+  font-weight: bold;
+  transition: 0.5s;
+}
+
+h2 {
+  font-family: 'Hind Siliguri', sans-serif;
+}
+
+h3 {
+  color: #2F363F;
+}
+
+.header {
+  width: 100%;
+  height: 120vh;
+  top: 0;
+  align-items: center;
+  justify-content: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: scroll;
+}
+
+.my-navbar {
+  background: rgba(0, 0, 0, 0.05);
+  border-radius: 30px;
+  padding: 1%;
+}
+
+.navbar {
+  max-width: 90%;
+  margin: auto;
+}
+
+nav ul li {
+  list-style-type: none;
+  display: inline-block;
+}
+
+nav a b {
+  color: #393e46;
+  font-family: 'Raleway', sans-serif;
+}
+
+.content {
+  color: #7eca9c;
+  font-size: 0.9rem;
+  line-height: 1.9;
+  word-spacing: 1.5px;
+  font-family: 'Source Sans Pro', sans-serif;
+  font-family: 'Bodoni Moda', serif;
+  padding: 10%;
+  font-weight: bold;
+  text-align: left;
+}
+
+.grid {
+  margin: 80px;
+  align-items: center;
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 30px;
+  justify-items: center;
+}
+
+.grid>article {
+  border: none;
+  text-align: center;
+  width: 250px;
+}
+
+.grid>article img {
+  width: 100px;
+  height: 100px;
+  border-radius: 50px;
+  margin: 5%;
+}
+
+.text {
+  padding: 0 20px 20px;
+}
+
+.text h3 {
+  font-size: 1.2rem;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.text p {
+  font-size: .8rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+.text button {
+  background: green;
+  border-radius: 20px;
+  border: none;
+  color: #fff;
+  padding: 10px;
+  width: 60%;
+  font-weight: 600;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.horizontal-dots{
+  text-align: center;
+  padding-bottom: 2.5%;
+}
+
+.dot {
+  height: 10px;
+  width: 10px;
+  background-color: #4AA96C;
+  border-radius: 50%;
+  display: inline-block;
+}
+
+.policy .policy-heading h3 {
+  text-align: center;
+  padding: 1.5% 0;
+  font-size: 2rem;
+  font-family: 'Baloo Tammudu 2', cursive;
+}
+
+.policy .policy-heading h6 {
+  text-align: center;
+  line-height: 1.4rem;
+  padding-bottom: 2.5%;
+  font-family: 'Raleway', sans-serif;
+}
+
+.policy .policy-wrapper {
+  display: flex;
+  padding: 5%;
+  margin-bottom: 2.5%;
+}
+
+.policy .policy-image {
+  width: 40%
+}
+
+.policy .policy-image img {
+  width: 75%;
+  flex: 1;
+}
+
+.policy .policy-wrapper .policy-content {
+  flex: 1;
+}
+
+.policy .policy-wrapper .policy-content h5 {
+  line-height: 1.2rem;
+  padding-bottom: 1.5%;
+  font-weight: bold;
+  font-family: 'Raleway', sans-serif;
+}
+
+.policy .policy-wrapper .policy-content p {
+  font-size: .8rem;
+  font-family: 'Raleway', sans-serif;
+}
+
+/* <!-- newuser style --> */
+.containr {
+  width: 100%;
+  height: auto;
+  top: 0;
+  align-items: center;
+  justify-content: left;
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  background-attachment: scroll;
+  padding-bottom: 10%;
+}
+
+.containr .formWrapper {
+  width: 55%;
+  margin: auto;
+  height: auto;
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px black;
+}
+
+.containr .formWrapper .formDiv {
+  width: 100%;
+  padding: 15%;
+  background-color: lavender;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.containr .formWrapper .formDiv h2 {
+  color: green;
+  margin: 2.5% 2.5% 2.5% 5%;
+}
+
+.containr .formWrapper .formDiv .formGroup {
+  width: 100%;
+  position: relative;
+}
+
+.containr .formWrapper .formDiv .formGroup input {
+  width: 90%;
+  padding: 10px;
+  margin: 2.5%;
+  margin-bottom: 5px;
+  border-radius: 5px;
+}
+
+.containr .formWrapper .formDiv .formGroup .fontfa {
+  font-family: fontawesome;
+}
+
+.bttn {
+  width: 70%;
+  padding: 15px;
+  margin-top: 7.5%;
+  background-color: green;
+  margin-top: 15px;
+  color: lavender;
+  border-radius: 20px;
+  border-style: no;
+}
+
+/* <!-- Customer details --> */
+.tableWrapper {
+  width: 85%;
+  height: auto;
+  margin: auto;
+  margin-top: 60px;
+  border-radius: 10px;
+  box-shadow: 0px 0px 20px black;
+}
+
+.tableDiv {
+  width: auto;
+  height: auto;
+  padding: 2.5% 10% 10%;
+  background-color: lavender;
+  text-align: center;
+  border-radius: 10px;
+}
+
+.tableDiv h2 {
+  color: green;
+  font-size: 2rem;
+  margin: 5%;
+}
+
+.customer-table {
+  width: 100%;
+  border-collapse: collapse;
+}
+
+.customer-table td, .customer-table th {
+  padding: 10px 12px;
+  border: 1px solid #ddd;
+  text-align: center;
+  font-size: .9rem;
+}
+
+.customer-table th {
+  background-color: darkblue;
+  color: #fff;
+  font-size: .9rem;
+}
+
+.customer-table tbody tr:nth-child(even) {
+  background-color: #f5f5f5;
+}
+
+.trnsferbtn {
+  width: 100%;
+  border-radius: 25px;
+  background-color: #A569BD;
+}
+
+/* transaction table */
+.transfer {
+  margin: 2.5% 0;
+  padding: 5% 0;
+}
+
+.receiver-details {
+  width: 100%;
+}
+
+.receiver-details label {
+  text-align: left;
+  float: left;
+  padding: 2.5%;
+}
+
+.receiver-details select {
+  padding: 3.5%;
+  width: 97%;
+  text-align: right;
+  margin-right: 3%;
+  border-radius: 5px 5px 10px 10px;
+  border: none;
+  border-bottom: 2px solid #999;
+}
+
+.receiver-details input {
+  padding: 3.5%;
+  width: 97%;
+  text-align: left;
+  margin-left: 3%;
+  border-radius: 5px 5px 10px 10px;
+  border: none;
+  border-bottom: 2px solid #999;
+}
+
+button {
+  border: none;
+  border-radius: 8px;
+  padding: 10px;
+  background: #7B8788;
+  color: white;
+  letter-spacing: 1.5px;
+  font-size: 15px;
+  transition: 0.5s;
+}
+
+button:hover, h1:hover {
+  transform: scale(1.1);
+}
+
+button:hover {
+  background-color: #4C4B4B;
+}
+
+/* ---------footer---------- */
+footer.footer {
+  height: 100%;
+  color: #064420;
+  background-color: #4AA96C;
+}
+
+footer.footer p {
+  margin-bottom: 0;
+  text-align: center;
+  font-size: .8rem;
+}
+
+footer.footer .container {
+  display: grid;
+  grid-template-columns: 35% 40% 35%;
+}
+
+footer.footer .container>div {
+  flex-grow: 1;
+  flex-basis: 0;
+  padding: 3rem 2rem;
+}
+
+footer.footer .container div h3 {
+  font-size: 1rem;
+}
+
+footer.footer .container div p {
+  font-size: .8rem;
+  text-align: left
+}
+
+footer.footer .container .social div i.fa {
+  padding: 5% 5% 5% 0;
+  font-size: 1.2rem;
+}
+
+footer.footer .container .social div i.fa-facebook {
+  color: #2541B2;
+}
+
+footer.footer .container .social div i.fa-github {
+  color: #161616;
+}
+
+footer.footer .container .social div i.fa-linkedin {
+  color: #125D98;
+}
+
+footer.footer .container .social div i.fa:hover {
+  color: #3C8DAD;
+}
+
+footer.footer .newsletter .form-element {
+  display: inline-block;
+  margin-top: 5%;
+}
+
+footer.footer .newsletter .form-element input {
+  padding: .5rem .7rem;
+  border: none;
+  background: rgba(0, 0, 0, 0.1);
+  font-size: .9rem;
+  width: 80%;
+  border-radius: 5px;
+}
+
+footer.footer .newsletter .form-element span {
+  background: #346751;
+  padding: .5rem .8rem;
+  cursor: pointer;
+  border-radius: 2px;
+}
+
+footer.footer .newsletter .form-element span:hover {
+  color: black;
+}
+
+@media only screen and (max-width : 990px) {
+  .receiver-details select {
+    padding: 3%;
+    width: 100%;
+    margin-bottom: 2%;
+    border-radius: 5px 5px 10px 10px;
+    border: none;
+    border-bottom: 2px solid #999;
+  }
+
+  .receiver-details input {
+    padding: 3%;
+    margin-left: 0;
+    width: 100%;
+    text-align: left;
+    border-radius: 5px 5px 10px 10px;
+    border: none;
+    border-bottom: 2px solid #999;
+  }
+}
+
+@media only screen and (max-width: 770px) {
+  .grid {
+    grid-template-columns: repeat(1, 1fr);
+  }
+
+  .grid>article {
+    text-align: center;
+    width: 80%;
+  }
+
+  .horizontal-dots {
+    padding-bottom: 10%;
+  }
+
+  .dot{
+    height: 7px;
+    width: 7px;
+  }
+
+  .policy .policy-heading h3 {
+    padding: 1% 0 5%;
+    font-size: 1.8rem;
+  }
+
+  .policy .policy-heading h6 {
+    line-height: .9rem;
+    padding: 0 15% 2.5% 15%;
+  }
+
+  .policy .policy-wrapper .policy-content h5 {
+    line-height: 1.2rem;
+    font-size: .9rem;
+  }
+
+  .policy .policy-wrapper .policy-content p {
+    font-size: .8rem;
+    margin-right: 3%;
+  }
+
+  .tableDiv h2 {
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+
+  .customer-table thead {
+    display: none;
+  }
+
+  .customer-table, .customer-table tbody, .customer-table tr, .customer-table td {
+    display: block;
+    width: auto;
+  }
+
+  .customer-table tr {
+    margin-bottom: 15px;
+  }
+
+  .customer-table td {
+    text-align: right;
+    padding-left: 40%;
+    font-size: 12px;
+    position: relative;
+  }
+
+  .customer-table td::before {
+    content: attr(data-label);
+    position: absolute;
+    left: 0;
+    width: 40%;
+    padding-left: 10px;
+    font-size: 12px;
+    font-weight: bold;
+    text-align: left;
+  }
+
+  .trnsferbtn {
+    width: 60%;
+    padding: 3%;
+  }
+
+  footer.footer .container>div {
+    padding: 1rem 1rem;
+  }
+
+  footer.footer .newsletter .form-element input {
+    font-size: .8rem;
+    width: 74%;
+    border-radius: 5px;
+  }
+
+  footer.footer .container .social div i {
+    margin-top: 5%;
+  }
+}
+
+@media only screen and (min-width: 770px) and (max-width:950px) {
+  .grid {
+    grid-template-columns: repeat(2, 1fr);
+  }
+
+  .customer-table td, .customer-table th {
+    font-size: .8rem;
+  }
+
+  .tableDiv {
+    width: auto;
+    height: auto;
+    padding: 2.5% 5% 5%;
+  }
+}
